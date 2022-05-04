@@ -1,0 +1,512 @@
+{
+  "header": {
+    "about": "關於",
+    "software": "軟體",
+    "hardware": "硬體",
+    "hi": "Hi",
+    "user": {
+      "profile": "我的簡介",
+      "order": "我的訂單",
+      "wishList": "我的收藏",
+      "device": "我的設備",
+      "app": "我的AI App",
+      "logout": "登出"
+    }
+  },
+  "footer": {
+    "copyright1": "版權所有",
+    "copyright2": "©Kneron, Inc.保留所有權利",
+    "legal": "服務條款",
+    "privacy": "隱私權聲明"
+  },
+  "landingPage": {
+    "button": {
+      "buy": "購買",
+      "add": "加入"
+    },
+    "software": {
+      "header": "軟體"
+    },
+    "hardware": {
+      "header": "硬體"
+    }
+  },
+  "product": {
+    "softwareCategory": {
+      "button": {
+        "buy": "購買",
+        "add": "加入"
+      }
+    },
+    "hardwareCategory": {
+      "title": {
+        "top": "最佳",
+        "recommendation": "推薦"
+      },
+      "button": {
+        "buy": "購買",
+        "add": "加入"
+      }
+    },
+    "software": {
+      "button": {
+        "buy": "購買",
+        "add": "加入",
+        "seeAll": "顯示全部",
+        "more": "More...",
+        "demoSite": "展示連結",
+        "browse": "瀏覽",
+        "enlarge": "放大檢視"
+      },
+      "titles": {
+        "preview": "預覽",
+        "product": "產品規格",
+        "demo": "示範區",
+        "support": "支援裝置",
+        "rating": "評分",
+        "feature": "新功能",
+        "version": "版本",
+        "information": "資訊",
+        "supplier": "提供商",
+        "size": "大小",
+        "category": "類別",
+        "recommend": "推薦",
+        "SW": "軟體",
+        "platform": "支援平台"
+      },
+      "message": {
+        "wish": "請登入"
+      }
+    },
+    "hardware": {
+      "button": {
+        "buy": "購買",
+        "add": "加入",
+        "seeAll": "顯示全部",
+        "more": "More..."
+      },
+      "titles": {
+        "preview": "預覽",
+        "product": "產品規格",
+        "rating": "評分",
+        "information": "資訊",
+        "supplier": "供應商",
+        "size": "大小",
+        "category": "類別",
+        "HW": "硬體",
+        "addTitle": "加購商品"
+      },
+      "message": {
+        "wish": "請登入",
+        "coupon": "不可退貨"
+      }
+    },
+    "status": {
+      "coming_soon": "即將上架",
+      "sold_out": "補貨中",
+      "on_sale": "特價中"
+    },
+    "search": {
+      "notFound-title1": "找不到符合搜尋字詞",
+      "notFound-title2": "的資料",
+      "notFound-content1": "請檢查您的輸入是否正確",
+      "notFound-content2": "試試以其它關鍵字搜尋",
+      "notFound-content3": "試試以較籠統的關鍵字搜尋"
+    }
+  },
+  "user": {
+    "tab": {
+      "title": {
+        "profile": "我的簡介",
+        "order": "我的訂單",
+        "wishList": "我的收藏",
+        "device": "我的設備",
+        "app": "我的AI App"
+      }
+    }
+  },
+  "cart": {
+    "title": {
+      "recommend": "推薦",
+      "emptyTitle": "您的KNEO購物車是空的",
+      "emptyDescription": "檢查您保存的物品或繼續購物",
+      "addTitle": "加購商品"
+    },
+    "button": {
+      "buy": "購買",
+      "payment": "付款",
+      "software": "軟體",
+      "hardware": "硬體",
+      "add": "加入",
+      "free": "免費"
+    },
+    "message": {
+      "discount": "請選擇折價商品"
+    }
+  },
+  "bill": {
+    "title": {
+      "billing": "帳單資訊",
+      "order": "訂單",
+      "invoice": "發票",
+      "invoiceSpan": "（透過電子郵件寄送電子發票）",
+      "payment": "付款方式",
+      "logistic": "配送方式",
+      "productName": "名稱",
+      "productQuantity": "數量",
+      "productPrice": "單價",
+      "notice": "KNEO marketplace 上的所有 AI App 只能運行於搭載 Kneron 晶片的硬體設備。"
+    },
+    "label": {
+      "firstName": "名字",
+      "lastName": "姓氏",
+      "company": "公司名稱 (選填)",
+      "region": "國家或地區",
+      "address": "街道地址",
+      "district": "鄉鎮市",
+      "city": "縣/市",
+      "state": "州/省/區",
+      "postcode": "郵遞區號",
+      "phone": "連絡電話",
+      "email": "電子郵件",
+      "receipt": "發票類別",
+      "invoice": "開立",
+      "invoiceBarcode": "條碼",
+      "taxIdNumber": "統編",
+      "companyTitle": "公司名稱",
+      "loveCode": "捐贈碼",
+      "distinct": "收件人同帳單資訊",
+      "note": "備註",
+      "subtotal": "小計",
+      "shipping": "運送方式",
+      "homeDelivery": "宅配",
+      "superDelivery": "超商取貨",
+      "total": "總計",
+      "credit": "信用卡",
+      "atm": "自動櫃員機",
+      "webatm": "網路ATM",
+      "cvs": "超商代碼",
+      "paypal": "Paypal",
+      "barcode": "超商條碼",
+      "confirm": {
+        "agree": "我已詳閱及同意",
+        "and": "及"
+      },
+      "legal": "服務條款",
+      "privacy": "隱私權聲明",
+      "agree": "我了解在 KNEO marketplace 所購買的 AI App 只能運行在搭載 Kneron 晶片的設備上",
+      "refund": "退貨條款",
+      "contract": "買家合約"
+    },
+    "placeholder": {
+      "address": "門牌號碼與街道名稱",
+      "note": "您的訂單的備註，例如: 運送時的特別註記。"
+    },
+    "select": {
+      "receipt1": "電子發票",
+      "receipt2": "紙本",
+      "receipt3": "自然人憑證",
+      "receipt4": "手機條碼",
+      "invoice1": "個人",
+      "invoice2": "公司",
+      "invoice3": "捐贈"
+    },
+    "button": {
+      "order": "下單購買",
+      "buyOne": "想買一個？"
+    },
+    "require": {
+      "textField": "請輸入",
+      "radio": "請選擇",
+      "select": "請選擇",
+      "checkbox": "請勾選"
+    },
+    "validation": {
+      "invalid": "無效",
+      "length": "姓氏與名字合計最多 32 個中文字、64 個英文字"
+    },
+    "message": {
+      "400": "發生錯誤，請聯絡客服",
+      "cvs": "訂單金額超過超商代碼付款允許的上限金額"
+    }
+  },
+  "orderResult": {
+    "title": {
+      "receive": "謝謝！已收到訂單您的訂單",
+      "detail": "您的訂單詳細資料",
+      "fail": "扣款失敗！請重新再次結帳，或通知您的發卡銀行。",
+      "guide1": "開始",
+      "guide2": "註冊硬體",
+      "guide3": "，並",
+      "guide4": "綁定下載 AI App"
+    },
+    "label": {
+      "id": "訂單編號：",
+      "date": "訂單日期：",
+      "total": "總計：",
+      "pay": "付款方式：",
+      "subtotal": "小計：",
+      "logistic": "運送方式："
+    },
+    "button": {
+      "retry": "重新結帳",
+      "cancel": "取消"
+    },
+    "message": {
+      "qaInput": {
+        "linesLimit": "行數必須小於或等於8行 ",
+        "charLimit": "字數必須小於(含)250字 "
+      }
+    }
+  },
+  "orderInternational": {
+    "title": {
+      "counting": "已成立訂單，國際物流運費計算中",
+      "detail": "您的訂單詳細資料",
+      "fail": "訂單成立失敗！請重新再次結帳。"
+    },
+    "label": {
+      "id": "訂單編號：",
+      "date": "訂單日期：",
+      "total": "總計：",
+      "pay": "付款方式：",
+      "subtotal": "小計：",
+      "logistic": "運送方式："
+    },
+    "button": {
+      "goOrder": "前往訂單頁面",
+      "retry": "重新結帳",
+      "cancel": "取消"
+    }
+  },
+  "orderCVS": {
+    "title": {
+      "receive": "我們已經收到您的訂單，請您於七天內盡速完成超商付款。",
+      "detail": "您的訂單詳細資料",
+      "fail": "訂單成立失敗！請重新再次結帳。"
+    },
+    "label": {
+      "id": "訂單編號：",
+      "date": "訂單日期：",
+      "total": "總計：",
+      "pay": "付款方式：",
+      "subtotal": "小計：",
+      "logistic": "運送方式："
+    },
+    "button": {
+      "goOrder": "前往訂單頁面",
+      "retry": "重新結帳",
+      "cancel": "取消",
+      "code": "取得超商付款代碼"
+    },
+    "dialog": {
+      "title": {
+        "code": "超商付款代碼",
+        "link": "手機付款連結",
+        "notice": "注意事項 Notice:"
+      },
+      "content": {
+        "until1": "請於",
+        "until2": "前",
+        "print": "至超商多媒體機台輸入代碼列印繳費單",
+        "store": "(適用 7-11/全家/萊爾富/OK 超商)",
+        "note": "*繳費截止時間以繳費單顯示為主",
+        "copy": "請複製連結至超商櫃台開啟進行掃碼繳費。",
+        "notice": "同一繳費代碼請勿重複繳費。\n請於 7天內 至超商列印繳費單並完成繳費。\n例 : 7/10的20:00分購買商品，繳費期限為7天，表示 7/17 20:00分前您必須前往結帳。\n請務必於期限內進行繳款，若超過繳費截止時間請勿繳款，以免造成訂單異常。\n提醒您！超商店員不會在結帳時另收手續費。\n若超商繳費連結逾時無法繳款，請點選連結內“重新取得繳費條碼“按鈕。"
+      },
+      "button": {
+        "copy": "複製繳費連結",
+        "ok": "OK"
+      }
+    }
+  },
+  "about": {
+    "tab": {
+      "about": "關於",
+      "contact": "聯繫",
+      "help": "幫助"
+    }
+  },
+  "profile": {
+    "label": {
+      "fullname": "全名",
+      "email": "電子郵件",
+      "phone": "連絡電話",
+      "address": "地址",
+      "timezone": "時區"
+    },
+    "require": {
+      "textField": "必須"
+    },
+    "validation": {
+      "invalid": "無效"
+    },
+    "button": {
+      "save": "儲存"
+    }
+  },
+  "order": {
+    "label": {
+      "orderNum": "訂單編號",
+      "orderDate": "訂單日期",
+      "orderItem": "訂單品項",
+      "orderQuantity": "數量",
+      "orderQA": "問題&回覆",
+      "orderDelivery": "配送狀態",
+      "emptyTitle": "您的訂單是空的",
+      "emptyDescription": "檢查您保存的物品或繼續購物",
+      "to": "請至頁面",
+      "returnQuantity": "退訂數量",
+      "logistic": "物流編號",
+      "returnStatus": "退貨退訂狀態"
+    },
+    "button": {
+      "QA": "訂單問題",
+      "finish": "已完成",
+      "delivery": "理貨中",
+      "arrived": "已到貨",
+      "verifying": "訂單確認中",
+      "fareEstimation": "費用確認中",
+      "fareConfirmation": "費用已確認",
+      "refund": "退款中",
+      "return": "退貨中",
+      "preparing": "理貨中",
+      "delivering": "運送中",
+      "cancelOrder": "訂單取消中",
+      "completeCancelReturn": "取消退貨",
+      "completeCancel": "確認訂單取消",
+      "completeRefund": "已退款",
+      "completeReturn": "已退貨",
+      "licensed": "已授權",
+      "software": "軟體",
+      "hardware": "硬體",
+      "go": "前往",
+      "payment": "付款",
+      "waitingPay": "訂單待付款"
+    },
+    "dialog": {
+      "feeTitle": "國際物流運費"
+    },
+    "message": {
+      "tip-phaseout": "產品已下架"
+    }
+  },
+  "wishList": {
+    "label": {
+      "emptyTitle": "您的願望清單是空的",
+      "emptyDescription": "檢查您保存的物品或繼續購物"
+    },
+    "button": {
+      "add": "加入",
+      "software": "軟體",
+      "hardware": "硬體"
+    }
+  },
+  "device": {
+    "title": {
+      "emptyTitle": "您的帳戶中沒有任何設備。\n您有新設備要註冊嗎？",
+      "purchase": "購買",
+      "register": "註冊",
+      "model": "設備型號",
+      "code": "KN代碼",
+      "download": "下載",
+      "recommend": "推薦",
+      "app": "AI App",
+      "binding": "已綁定",
+      "purchaseMore": "購買更多",
+      "availableLicense": "可用憑照",
+      "bindingLicense": "綁定憑照",
+      "utilityTitle": "請根據您的作業系統下載應用程式以註冊您的設備",
+      "step1": "步驟1",
+      "step2": "步驟2",
+      "step3": "步驟3"
+    },
+    "description": {
+      "purchase": "如果否，請轉到購買新設備。",
+      "register": "如果是，請註冊您的設備。",
+      "step1": "將設備接上電腦。",
+      "step2": "運行應用程序。",
+      "step3": "設置成功後，請檢查您的設備列表。"
+    },
+    "button": {
+      "buy": "購買",
+      "finish": "完成",
+      "nextStep": "下一步",
+      "prevStep": "上一步",
+      "buyOne": "想買一個？"
+    },
+    "download": {
+      "64bit": "由此下載64 bit"
+    },
+    "app": {
+      "emptyTitle1": "",
+      "emptyTitle2": " marketplace 上的所有 AI App 只能運行於搭載 Kneron 晶片的硬體設備。"
+    }
+  },
+  "app": {
+    "title": {
+      "emptyTitle": "您的帳戶中沒有任何AI App。\n請購買一個新的AI App。",
+      "purchase": "購買",
+      "download": "下載",
+      "app": "AI App",
+      "availableLicense": "可用許可證",
+      "bindingLicense": "綁定許可證",
+      "purchaseMore": "購買更多",
+      "totalLicense": "總許可證",
+      "bind": "綁定",
+      "available": "可用的",
+      "binding": "已綁定",
+      "code": "KN代碼",
+      "recommend": "推薦",
+      "review": "評論",
+      "reviewEdit": "編輯評論"
+    },
+    "description": {
+      "purchase": "購買一個AI App"
+    },
+    "button": {
+      "buy": "購買",
+      "finish": "完成",
+      "buyOne": "想買一個？",
+      "register": "註冊設備"
+    },
+    "message": {
+      "less": "數量不足",
+      "tip": "請先綁定設備",
+      "bind": "點選此處進行綁定"
+    },
+    "device": {
+      "emptyTitle1": "",
+      "emptyTitle2": " marketplace 上的所有 AI App 只能運行於搭載 Kneron 晶片的硬體設備。"
+    }
+  },
+  "message": {
+    "200": "成功",
+    "400": "錯誤請求",
+    "401": "未授權",
+    "500": "伺服器錯誤",
+    "502": "伺服器錯誤",
+    "error": "錯誤"
+  },
+  "dialog": {
+    "title": {
+      "kneo": "KNEO 市集"
+    },
+    "description": {
+      "bind": "確定是否要進行綁定，一旦綁定將無法解除",
+      "noOperation": "暫時沒有任何操作",
+      "loginAgain": "請單擊“繼續”再次登錄"
+    },
+    "button": {
+      "yes": "是",
+      "no": "否",
+      "proceed": "繼續"
+    }
+  },
+  "review": {
+    "button": {
+      "submit": "送出",
+      "cancel": "取消"
+    }
+  }
+}

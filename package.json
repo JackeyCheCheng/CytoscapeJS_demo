@@ -1,0 +1,70 @@
+{
+  "name": "acelink-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mui/icons-material": "^5.6.1",
+    "@mui/material": "^5.6.1",
+    "@mui/styled-engine-sc": "^5.6.1",
+    "axios": "^0.26.1",
+    "env-cmd": "^10.1.0",
+    "formik": "^2.2.9",
+    "i18next": "21.6.15",
+    "i18next-browser-languagedetector": "6.1.4",
+    "i18next-http-backend": "1.4.0",
+    "material-table": "^2.0.3",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.16.5",
+    "react-redux": "^7.2.8",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.0",
+    "redux": "^4.1.2",
+    "redux-observable": "^2.0.0",
+    "rxjs": "^6.6.7",
+    "styled-components": "^5.3.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build-prod": "react-scripts build",
+    "build-dev": "env-cmd -f .env.dev react-scripts build",
+    "build-qa": "env-cmd -f .env.qa react-scripts build",
+    "build-demo": "env-cmd -f .env.demo react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy-edidev-dev": "aws s3 sync build/ s3://sgdev-kneo-portal.ap-southeast-1 --acl public-read",
+    "deploy-kneroncloud-dev": "aws s3 sync build/ s3://kneronordev-kneo-portal.us-west-2 --acl public-read",
+    "deploy-kneroncloud-qa": "aws s3 sync build/ s3://kneronorqa-kneo-portal.us-west-2 --acl public-read",
+    "deploy-kneroncloud-demo": "aws s3 sync build/ s3://kneo-marketplace-demo.us-west-2 --acl public-read",
+    "deploy-kneroncloud-prod": "aws s3 sync build/ s3://knohprod-kneo-marketplace-us-east-2 --acl public-read",
+    "release-dev": "export AWS_PROFILE=kneroncloud && npm run build-dev && npm run deploy-kneroncloud-dev && aws cloudfront create-invalidation --distribution-id E2VKQY08WDQNDU --paths \"/*\"",
+    "release-qa": "export AWS_PROFILE=kneroncloud && npm run build-qa && npm run deploy-kneroncloud-qa && aws cloudfront create-invalidation --distribution-id E2CKHDU1S0W8UC --paths \"/*\"",
+    "release-prod": "export AWS_PROFILE=kneroncloud && npm run build-prod && npm run deploy-kneroncloud-prod && aws cloudfront create-invalidation --distribution-id EQRELDOWNS1Y8 --paths \"/*\"",
+    "release-demo": "export AWS_PROFILE=kneroncloud && npm run build-demo && npm run deploy-kneroncloud-demo && aws cloudfront create-invalidation --distribution-id E2KC8OKG1QLSUO --paths \"/*\"",
+    "my-test": "export AWS_PROFILE=kneroncloud"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cytoscape": "^3.21.1",
+    "cytoscape-edgehandles": "^4.0.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "fs": "^0.0.1-security"
+  }
+}

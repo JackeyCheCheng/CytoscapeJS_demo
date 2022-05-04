@@ -1,0 +1,518 @@
+{
+  "header": {
+    "about": "About",
+    "software": "Software",
+    "hardware": "Hardware",
+    "hi": "Hi",
+    "user": {
+      "profile": "My Profile",
+      "order": "My Order",
+      "wishList": "My Wish List",
+      "device": "My Device",
+      "app": "My AI App",
+      "logout": "Log out"
+    }
+  },
+  "footer": {
+    "copyright1": "Copyright ",
+    "copyright2": "© Kneron, Inc. All Rights Reserved.",
+    "legal": "Service Policy",
+    "privacy": "Privacy Policy"
+  },
+  "landingPage": {
+    "button": {
+      "buy": "BUY",
+      "add": "ADD"
+    },
+    "software": {
+      "header": "Software"
+    },
+    "hardware": {
+      "header": "Hardware"
+    }
+  },
+  "product": {
+    "softwareCategory": {
+      "button": {
+        "buy": "BUY",
+        "add": "ADD"
+      }
+    },
+    "hardwareCategory": {
+      "title": {
+        "top": "TOP",
+        "recommendation": "Recommendation"
+      },
+      "button": {
+        "buy": "BUY",
+        "add": "ADD"
+      }
+    },
+    "software": {
+      "button": {
+        "buy": "BUY",
+        "add": "ADD",
+        "seeAll": "See All",
+        "more": "More...",
+        "demoSite": "Demo site",
+        "browse": "Browse",
+        "enlarge": "Enlarge"
+      },
+      "titles": {
+        "preview": "Preview",
+        "product": "Product spec",
+        "demo": "Demo Area",
+        "support": "Support device",
+        "rating": "Rating",
+        "feature": "New feature",
+        "version": "Version",
+        "information": "Information",
+        "supplier": "Provider",
+        "size": "Size",
+        "category": "Categories",
+        "recommend": "Recommend",
+        "SW": "Software",
+        "platform": "Support Platform"
+      },
+      "message": {
+        "wish": "Please login"
+      }
+    },
+    "hardware": {
+      "button": {
+        "buy": "BUY",
+        "add": "ADD",
+        "seeAll": "See All",
+        "more": "More..."
+      },
+      "titles": {
+        "preview": "Preview",
+        "product": "Product spec",
+        "rating": "Rating",
+        "information": "Information",
+        "supplier": "Provider",
+        "size": "Size",
+        "category": "Categories",
+        "HW": "Hardware",
+        "addTitle": "Promotion"
+      },
+      "message": {
+        "wish": "Please login",
+        "coupon": "Non-returnable"
+      }
+    },
+    "status": {
+      "coming_soon": "Coming Soon",
+      "sold_out": "Sold Out",
+      "on_sale": "On Sales"
+    },
+    "search": {
+      "notFound-title1": "No product found matching the search term",
+      "notFound-title2": "",
+      "notFound-content1": "Please check for typos.",
+      "notFound-content2": "Try searching with other keywords.",
+      "notFound-content3": "Try searching with more general keywords."
+    }
+  },
+  "user": {
+    "tab": {
+      "title": {
+        "profile": "My Profile",
+        "order": "My Order",
+        "wishList": "My Wish List",
+        "device": "My Device",
+        "app": "My AI App"
+      }
+    }
+  },
+  "cart": {
+    "title": {
+      "recommend": "Recommend",
+      "emptyTitle": "Your KNEO Cart is empty",
+      "emptyDescription": "Check your saved items or continue shopping",
+      "approx": "approx",
+      "addTitle": "SALE"
+    },
+    "button": {
+      "buy": "BUY",
+      "payment": "PAYMENT",
+      "software": "SOFTWARE",
+      "hardware": "HARDWARE",
+      "add": "ADD",
+      "free": "FREE"
+    },
+    "message": {
+      "discount": "Please select coupon items"
+    }
+  },
+  "bill": {
+    "title": {
+      "billing": "Billing Information",
+      "order": "Order",
+      "invoice": "Invoice",
+      "invoiceSpan": "（Send the invoice by Email）",
+      "payment": "Payment Method",
+      "logistic": "Logistic",
+      "productName": "Name",
+      "productQuantity": "Quantity",
+      "productPrice": "Unit Price",
+      "notice": "All AI App from KNEO marketplace can be only running on the device powered by Kneron chipset."
+    },
+    "label": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "company": "Company Name (optional)",
+      "region": "Country or Region",
+      "address": "Street Address",
+      "district": "Town",
+      "city": "County/City",
+      "state": "State/Province/Region",
+      "postcode": "Postal Code",
+      "phone": "Contact Number",
+      "email": "E-mail",
+      "receipt": "Invoice Type",
+      "invoice": "Open",
+      "invoiceBarcode": "Bar code",
+      "taxIdNumber": "Unified Business No.",
+      "companyTitle": "Company Title",
+      "loveCode": "Donation code",
+      "distinct": "Recipient same as billing information",
+      "note": "Remarks",
+      "subtotal": "Subtotal",
+      "shipping": "Shipping Method",
+      "homeDelivery": "Deliver",
+      "superDelivery": "Store Pickup",
+      "total": "Total",
+      "credit": "Credit Card",
+      "atm": "ATM",
+      "webatm": "Web ATM",
+      "cvs": "Store Code",
+      "paypal": "Paypal",
+      "barcode": "Store Barcode",
+      "confirm": {
+        "agree": "I have read and agreed to the ",
+        "and": " and "
+      },
+      "legal": "service policy",
+      "privacy": "privacy policy",
+      "agree": "I understand whatever AI App I purchase from KEON marketplace can only run on the device with Kneron chipset.",
+      "refund": "refund policy",
+      "contract": "buyer contract"
+    },
+    "placeholder": {
+      "address": "House number and street name",
+      "note": "Remarks of your order, for example: Special remarks when shipping"
+    },
+    "select": {
+      "receipt1": "Cloud Invoice",
+      "receipt2": "Paper book",
+      "receipt3": "Citizen Digital Certificate",
+      "receipt4": "Mobile Phone Barcode",
+      "invoice1": "Personal",
+      "invoice2": "Company",
+      "invoice3": "Donate"
+    },
+    "button": {
+      "order": "Place an order to buy",
+      "buyOne": "Buy one?"
+    },
+    "require": {
+      "textField": "Please enter",
+      "radio": "Please choose",
+      "select": "Please choose",
+      "checkbox": "Please check"
+    },
+    "validation": {
+      "invalid": "Invalid",
+      "length": "First name and last name total up to 32 Chinese characters and 64 English characters"
+    },
+    "message": {
+      "400": "An error occurred, please contact customer service.",
+      "cvs": "The order amount exceeds the maximum amount allowed for payment by cvs code"
+    }
+  },
+  "orderResult": {
+    "title": {
+      "receive": "Thank you! Your order has been received",
+      "detail": "Your order details",
+      "fail": "Deduction failed! Please check out again or notify your card issuing bank.",
+      "guide1": "Start to ",
+      "guide2": "register your device",
+      "guide3": ", ",
+      "guide4": "binding your AI App. and download it."
+    },
+    "label": {
+      "id": "Order number:",
+      "date": "Order date:",
+      "total": "Total:",
+      "pay": "Payment method:",
+      "subtotal": "Subtotal:",
+      "logistic": "Shipping method:"
+    },
+    "button": {
+      "retry": "Retry",
+      "cancel": "Cancel"
+    },
+    "message": {
+      "qaInput": {
+        "linesLimit": "Must be less than or equal to 8 lines ",
+        "charLimit": "Must be 250 characters or less "
+      }
+    }
+  },
+  "orderInternational": {
+    "title": {
+      "counting": "The order has been established and the international logistics freight is being calculated",
+      "detail": "Your order details",
+      "fail": "Order establishment failed! Please check out again."
+    },
+    "label": {
+      "id": "Order number:",
+      "date": "Order date:",
+      "total": "Total:",
+      "pay": "Payment method:",
+      "subtotal": "Subtotal:",
+      "logistic": "Shipping method:"
+    },
+    "button": {
+      "goOrder": "Go to the order page",
+      "retry": "Retry",
+      "cancel": "Cancel"
+    }
+  },
+  "orderCVS": {
+    "title": {
+      "receive": "We received your order; please complete your payment via convenience stores in 7 days.",
+      "detail": "Your order details",
+      "fail": "Order establishment failed! Please check out again."
+    },
+    "label": {
+      "id": "Order number:",
+      "date": "Order date:",
+      "total": "Total:",
+      "pay": "Payment method:",
+      "subtotal": "Subtotal:",
+      "logistic": "Shipping method:"
+    },
+    "button": {
+      "goOrder": "Go to the order page",
+      "retry": "Retry",
+      "cancel": "Cancel",
+      "code": "Obtain a Super Merchant Payment Code"
+    },
+    "dialog": {
+      "title": {
+        "code": "Super merchant payment code",
+        "link": "Mobile payment link",
+        "notice": "Notice:"
+      },
+      "content": {
+        "until1": "Please before",
+        "until2": "",
+        "print": "Enter the code to print the payment slip at the Super Commercial Multimedia Machine",
+        "store": "(Applicable to 7-11/Family/Lairfu/OK Supermarket)",
+        "note": "*The deadline for payment is mainly displayed on the payment slip",
+        "copy": "Please copy the link to the supermarket counter to open the QR code to pay.",
+        "notice": "Do not pay for the same payment code repeatedly. \nPlease print the payment slip and complete the payment at the supermarket within 7 days. \nExample: When purchasing goods at 20:00 on 7/10, the payment period is 7 days, which means that you must go to checkout before 20:00 on 7/17. \nPlease make payment within the time limit, if it exceeds the payment deadline, please do not pay, so as not to cause an abnormal order. \nRemind you! Super store staff will not charge additional handling fees at checkout. \nIf the supermarket payment link fails to pay after the time limit, please click the \"re-obtain payment barcode\" button in the link."
+      },
+      "button": {
+        "copy": "Copy link",
+        "ok": "OK"
+      }
+    }
+  },
+  "about": {
+    "first": {
+      "title": "INTRODUCING KNEO",
+      "content": {
+        "first": "KNEO is a private mesh intelligence network made up of Kneron powered devices that will ",
+        "second": "personalize mobile AI for everyone",
+        "third": ", just as smartphones and mobile apps personalized mobile computing for all. It will create an open platform for AI application ",
+        "forth": "developers to build AI apps",
+        "fifth": " based on mainstream AI frameworks and models for consumers and businesses who use KNEO"
+      }
+    }
+  },
+  "profile": {
+    "label": {
+      "fullname": "Fullname",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "timezone": "Timezone"
+    },
+    "require": {
+      "textField": "Required"
+    },
+    "validation": {
+      "invalid": "Invalid"
+    },
+    "button": {
+      "save": "Save"
+    }
+  },
+  "order": {
+    "label": {
+      "orderNum": "Order Number",
+      "orderDate": "Order Date",
+      "orderItem": "Order Item",
+      "orderQuantity": "Quantity",
+      "orderQA": "Q&A",
+      "orderDelivery": "Delivery Status",
+      "emptyTitle": "Your order is empty",
+      "emptyDescription": "Check your saved items or continue shopping",
+      "to": "Go to",
+      "returnQuantity": "Return Quantity",
+      "logistic": "Logistic Number",
+      "returnStatus": "Return Refund Status"
+    },
+    "button": {
+      "QA": "Order Q&A",
+      "finish": "Complete",
+      "delivery": "Delivery",
+      "arrived": "Arrived",
+      "verifying": "Verifying",
+      "fareEstimation": "Fare Estimation",
+      "fareConfirmation": "Fare Confirmation",
+      "refund": "Refunding",
+      "return": "Returning",
+      "preparing": "Tally",
+      "delivering": "Delivering",
+      "cancelOrder": "Confirm the order cancelling",
+      "completeCancelReturn": "Cancel return",
+      "completeCancel": "Confirm the order cancelled",
+      "completeRefund": "Refunded",
+      "completeReturn": "Returned",
+      "licensed": "Authorized",
+      "software": "SOFTWARE",
+      "hardware": "HARDWARE",
+      "go": "GO",
+      "payment": "PAYMENT",
+      "waitingPay": "Pending payment"
+    },
+    "dialog": {
+      "feeTitle": "International logistics fee"
+    },
+    "message": {
+      "tip-phaseout": "Product already phase out"
+    }
+  },
+  "wishList": {
+    "label": {
+      "emptyTitle": "Your wish list is empty",
+      "emptyDescription": "Check your saved items or continue shopping"
+    },
+    "button": {
+      "add": "ADD",
+      "software": "SOFTWARE",
+      "hardware": "HARDWARE"
+    }
+  },
+  "device": {
+    "title": {
+      "emptyTitle": "You don’t have any device in your account.\nDo you have a new device to register?",
+      "purchase": "Purchase",
+      "register": "Register",
+      "model": "Device Model",
+      "code": "KN Code",
+      "download": "Download",
+      "recommend": "Recommend",
+      "app": "AI App",
+      "binding": "Binding",
+      "purchaseMore": "Purchase more",
+      "availableLicense": "Available license",
+      "bindingLicense": "Binding license",
+      "utilityTitle": "Please download the utility according to your operating system to register your device.",
+      "step1": "Step 1",
+      "step2": "Step 2",
+      "step3": "Step 3"
+    },
+    "description": {
+      "purchase": "If no, please go to Purchase a new device.",
+      "register": "If yes, please register your device.",
+      "step1": "Insert your device into the computer.",
+      "step2": "Run the Provisioning Utility.",
+      "step3": "Please check your device list after provision success."
+    },
+    "button": {
+      "buy": "BUY",
+      "finish": "Finish",
+      "nextStep": "Next Step",
+      "prevStep": "Previous",
+      "buyOne": "Want to buy one?"
+    },
+    "download": {
+      "64bit": "download 64 bit"
+    },
+    "app": {
+      "emptyTitle1": "All AI App from ",
+      "emptyTitle2": " marketplace can be only running on the device powered by Kneron chipset."
+    }
+  },
+  "app": {
+    "title": {
+      "emptyTitle": "You don’t have any AI app in your account.\nPlease purchase a new AI app.",
+      "purchase": "Purchase",
+      "download": "Download",
+      "app": "AI App",
+      "availableLicense": "Available license",
+      "bindingLicense": "Binding license",
+      "purchaseMore": "Purchase more",
+      "totalLicense": "Total License",
+      "bind": "Bind",
+      "available": "Available",
+      "binding": "Binding",
+      "code": "KN Code",
+      "recommend": "Recommend",
+      "review": "Review",
+      "reviewEdit": "Edit Review"
+    },
+    "description": {
+      "purchase": "Purchase an AI App."
+    },
+    "button": {
+      "buy": "BUY",
+      "finish": "Finish",
+      "buyOne": "Want to buy one?",
+      "register": "Register my own devices"
+    },
+    "message": {
+      "less": "Insufficient license for binding",
+      "tip": "Please bind with device first",
+      "bind": "Click here to bind"
+    },
+    "device": {
+      "emptyTitle1": "All AI App from ",
+      "emptyTitle2": " marketplace can be only running on the device powered by Kneron chipset."
+    }
+  },
+  "message": {
+    "200": "Success",
+    "400": "Bad Request",
+    "401": "Unauthorized",
+    "500": "Internal Server Error",
+    "502": "Bad Gateway",
+    "error": "Error"
+  },
+  "dialog": {
+    "title": {
+      "kneo": "KNEO Marketplace"
+    },
+    "description": {
+      "bind": "Determine whether to bind, once bound, it cannot be released",
+      "noOperation": "There is no operation for a while.",
+      "loginAgain": "Please click \"PROCEED\" to login again."
+    },
+    "button": {
+      "yes": "Yes",
+      "no": "No",
+      "proceed": "Proceed"
+    }
+  },
+  "review": {
+    "button": {
+      "submit": "Submit",
+      "cancel": "Cancel"
+    }
+  }
+}
